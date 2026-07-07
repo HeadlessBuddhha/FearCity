@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2024-01-31",
+  "videos": [
+    {
+      "id": "vid-001",
+      "title": "1 - Welcome to Fear City",
+      "description": "Primeiro vídeo da crônica Welcome to Fear City do RPG Vampiro: A Mascara",
+      "youtubeId": "3bQx9VYFlic",
+      "session": 1,
+      "tags": ["introducao", "neofito", "camarilla"],
+      "accessLevel": "public",
+      "date": "2024-01-10"
+    },
+    {
+      "id": "vid-002",
+      "title": "2 - All For One in NY",
+      "description": "Segundo vídeo da crônica Welcome to Fear City do RPG Vampiro: A Mascara",
+      "youtubeId": "uue2E_ws6H4",
+      "session": 2,
+      "tags": ["elysium", "politica", "camarilla"],
+      "accessLevel": "public",
+      "date": "2024-01-17"
+    },
+    {
+      "id": "vid-003",
+      "title": "3 - Dance Monkeys, Dance!",
+      "description": "3 - Dance Monkeys, Dance!",
+      "youtubeId": "jCddFsatm9g",
+      "session": 3,
+      "tags": ["investigacao", "nosferatu", "subterraneo"],
+      "accessLevel": "public",
+      "date": "2024-01-24"
+    },
+    {
+      "id": "vid-004",
+      "title": "4 - Call Alice",
+      "description": "Quarto vídeo da crônica Welcome to Fear City do RPG Vampiro: A Mascara",
+      "youtubeId": "iUxSmM4s-lQ",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-005",
+      "title": "5 - Death Wish (or The Great Gig)",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "WOL9_LowI7g",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-006",
+      "title": "6 - Ask the Alligator (Hands)",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "hcLq6Y6UVa8",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-007",
+      "title": "7 - Kyrie",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "bgcauc4Vtj4",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-08",
+      "title": "8 - piiilllssss",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "u9_4uPB-2cw",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-009",
+      "title": "9 - Kill or be Killed",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "NoEGctE9ods",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-010",
+      "title": "10 - Envy",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "g2pfr4qb07E",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-011",
+      "title": "11 - Is my Very Nature That of the Devil?",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "qMtWJo18_BE",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "public",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-012",
+      "title": "12 - Coisas Monstruosas",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "_kt3BKasS60",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "restricted",
+      "date": "2024-01-31"
+    },
+    {
+      "id": "vid-013",
+      "title": "13 - Panopticon",
+      "description": "Nem todos os aliados são leais. A noite do confronto.",
+      "youtubeId": "Ug-3p9yrmxE",
+      "session": 4,
+      "tags": ["traicao", "conflito", "drama"],
+      "accessLevel": "restricted",
+      "date": "2024-01-31"
+    }
+
+  ]
+}

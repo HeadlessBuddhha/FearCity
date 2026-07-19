@@ -1,16 +1,17 @@
-from pydantic import BaseModel
-from typing import Optional, Literal, Dict, Any
 from datetime import datetime
+from typing import Any, Dict, Optional
+
+from pydantic import BaseModel, Field, constr
 
 
 # ─── Auth ─────────────────────────────────────────────────────────────────────
 class ValidateKeyRequest(BaseModel):
-    key: str
+    key: constr(strip_whitespace=True, min_length=4, max_length=128)
 
 
 class ValidateKeyResponse(BaseModel):
     ok: bool
-    token: Optional[str] = None
+    token: Optional[str] = Field(default=None)
 
 
 # ─── Capítulos ────────────────────────────────────────────────────────────────
@@ -19,28 +20,28 @@ class Chapter(BaseModel):
     title: str
     slug: str
     excerpt: str
-    content: Optional[str] = None
+    content: Optional[str] = Field(default=None)
     access_level: str
     order: int
-    created_at: Optional[str] = None
-    updated_at: Optional[str] = None
+    created_at: Optional[str] = Field(default=None)
+    updated_at: Optional[str] = Field(default=None)
 
 
 # ─── Personagens ──────────────────────────────────────────────────────────────
 class Character(BaseModel):
     id: str
     name: str
-    concept: Optional[str] = None
-    clan: Optional[str] = None
-    generation: Optional[int] = None
-    sheet_data: Dict[str, Any] = {}
+    concept: Optional[str] = Field(default=None)
+    clan: Optional[str] = Field(default=None)
+    generation: Optional[int] = Field(default=None)
+    sheet_data: Dict[str, Any] = Field(default_factory=dict)
     access_level: str
 
 
 # ─── Anotações ────────────────────────────────────────────────────────────────
 class AnnotationUpsert(BaseModel):
-    content: str
-    updated_at: Optional[str] = None
+    content: constr(strip_whitespace=True, min_length=1, max_length=20000)
+    updated_at: Optional[datetime] = Field(default=None)
 
 
 class AnnotationResponse(BaseModel):

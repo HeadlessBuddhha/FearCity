@@ -34,13 +34,14 @@ function buildHeader() {
     <div class="header-top-line"></div>
     <div class="header-inner">
       <a href="/" class="site-logo">
-        <span class="site-logo-symbol animate-flicker">✦</span>
-        <span class="site-logo-text">Fear City</span>
+        <span class="site-logo-symbol animate-flicker">†</span>
+        <span class="site-logo-text">Welcome to Fear City</span>
       </a>
 
       <nav class="header-nav" id="desktop-nav">
         <a href="/" class="nav-item" data-page="home">Início</a>
-        <a href="/pages/chronicle.html" class="nav-item" data-page="chronicle">Crônica</a>
+        <a href="/pages/chronicle.html" class="nav-item" data-page="chronicle">Enredo RPG</a>
+        <a href="/pages/history.html" class="nav-item" data-page="history">Fatos Reais</a>
         <a href="/pages/characters.html" class="nav-item" data-page="characters">
           Personagens <span style="color:var(--blood-600);font-size:0.7rem">🔒</span>
         </a>
@@ -58,14 +59,15 @@ function buildHeader() {
 
     <div class="mobile-nav container" id="mobile-nav">
       <a href="/" class="nav-item" data-page="home">Início</a>
-      <a href="/pages/chronicle.html" class="nav-item" data-page="chronicle">Crônica</a>
+      <a href="/pages/chronicle.html" class="nav-item" data-page="chronicle">Enredo RPG</a>
+      <a href="/pages/history.html" class="nav-item" data-page="history">Fatos Reais</a>
       <a href="/pages/characters.html" class="nav-item" data-page="characters">Personagens 🔒</a>
       <a href="/pages/media.html" class="nav-item" data-page="media">Vídeos</a>
       <div id="mobile-auth" style="padding-top:0.5rem"></div>
     </div>
     <div class="header-bottom-line"></div>
 
-    <!-- Modal de chave de acesso -->
+        <!-- Modal de chave de acesso -->
     <div class="modal-backdrop" id="key-modal">
       <div class="modal-box">
         <div class="modal-corner tl"></div>
